@@ -1,0 +1,46 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دليل CardScan 60K</title>
+<style>body{font:17px/1.9 -apple-system,system-ui,sans-serif;max-width:640px;margin:auto;padding:16px;background:#eef2f6;color:#14213d}
+h1{font-size:26px}h2{font-size:20px;margin-top:28px;border-right:5px solid #1d4ed8;padding-right:10px}li{margin-bottom:6px}
+.w{background:#fff3e0;border-radius:12px;padding:10px 14px}code{background:#fff;padding:1px 6px;border-radius:6px;direction:ltr;unicode-bidi:embed}</style></head><body>
+<h1>دليل تشغيل CardScan 60K</h1>
+<h2>1) النشر المجاني (مرة واحدة فقط)</h2>
+<ol><li>أنشئ حساباً مجانياً في <code>github.com</code>.</li>
+<li>اضغط <code>New repository</code> ثم اكتب الاسم <code>cardscan</code>، اختر <code>Public</code>، ثم <code>Create repository</code>.</li>
+<li>فك ضغط ملف <code>CardScan60K.zip</code> (على الآيفون: اضغط عليه في تطبيق الملفات).</li>
+<li>في المستودع: <code>Add file</code> ثم <code>Upload files</code>، اختر كل الملفات الموجودة داخل المجلد (ليس المجلد نفسه)، ثم <code>Commit changes</code>.</li>
+<li>اذهب إلى <code>Settings</code> ثم <code>Pages</code>، اختر <code>Branch: main</code> و <code>/ (root)</code>، ثم <code>Save</code>. بعد دقيقتين يظهر رابط مثل <code>https://اسمك.github.io/cardscan/</code></li></ol>
+<p>الرابط العام يحتوي على كود التطبيق فقط. بيانات البطاقات لا تغادر جوالك أبداً.</p>
+<h2>2) التثبيت على الآيفون</h2>
+<ol><li>افتح الرابط في <b>Safari</b> والإنترنت يعمل، وانتظر دقيقة حتى يظهر ✅ بجانب «OCR engine loaded».</li>
+<li>اضغط زر المشاركة ثم <code>Add to Home Screen</code> ثم <code>Add</code>.</li>
+<li>افتح التطبيق من الأيقونة (وليس من Safari) واسمح للكاميرا.</li></ol>
+<h2>3) اختبار العمل بدون إنترنت (إلزامي)</h2>
+<ol><li>شغّل وضع الطيران، أغلق التطبيق تماماً ثم افتحه من الأيقونة.</li>
+<li>اضغط START SCANNING وجرّب مغلفاً. إذا فتحت الكاميرا وظهر DONE فالتطبيق يعمل بدون إنترنت.</li>
+<li>إذا ظهرت رسالة «OCR engine not available» أخبرني بالضبط لأغيّر طريقة التخزين.</li></ol>
+<h2>4) طريقة المسح</h2>
+<ol><li>اضغط START SCANNING.</li>
+<li>قرّب الجوال حتى يملأ السطران (رقم البطاقة المخفي ثم رقم الحساب) الإطار الأبيض، وثبّته.</li>
+<li>تظهر شاشة <b>DONE</b> خضراء فقط بعد التحقق من الحقلين وحفظ السجل. بعدها أبعد المغلف وأحضر التالي.</li>
+<li>الشاشة البرتقالية <b>REVIEW</b> تعني أن القراءة غير مؤكدة: لم يُخمَّن أي رقم. صحّحها لاحقاً من زر <code>Review</code> مع الصورة المصغرة.</li>
+<li>التكرارات (نفس الحساب + آخر 4 أرقام) تُحفظ كلها وتُعلَّم <code>DUPLICATE</code> ولا تُحذف.</li></ol>
+<h2>5) النسخ الاحتياطي والاستعادة</h2>
+<ul><li>عند كل 500 سجل يُحفظ تلقائياً نسخة داخل التطبيق، وتظهر شاشة طلب نسخة ملف: اضغط الزر الأخضر مرتين ثم <code>Save to Files</code> (يفضل iCloud Drive).</li>
+<li>زر <code>Backup file</code> يحفظ قاعدة البيانات كاملة. زر <code>Restore</code> يستعيدها.</li>
+<li>زر <code>EXPORT TO EXCEL</code> يصدّر ملف xlsx (عمودان نصيّان، الأصفار محفوظة).</li>
+<li>للمتابعة بعد التوقف: افتح التطبيق، سترى آخر سجل محفوظ، ثم START SCANNING.</li></ul>
+<p class="w"><b>تحذيرات:</b> لا تحذف أيقونة التطبيق ولا تمسح بيانات Safari أثناء المشروع. إن لم يظهر ✅ للتثبيت على الشاشة الرئيسية فقد يمسح iOS البيانات بعد 7 أيام بدون استخدام.</p>
+<h2>6) تحديث الملفات في GitHub (للنسخة الجديدة)</h2>
+<ol><li>على اللابتوب: نزّل <code>CardScan60K.zip</code> وفكّه.</li>
+<li>افتح المستودع <code>cardscan</code> ثم <code>Add file</code> ثم <code>Upload files</code>، واسحب الملفات الثمانية (الأسماء نفسها تستبدل القديمة) ثم <code>Commit changes</code>.</li>
+<li>بعد دقيقتين افتح الرابط على الآيفون والإنترنت شغال، أغلق التطبيق تماماً وافتحه مرتين. بياناتك المحفوظة لا تُمسح بالتحديث، ومع ذلك احفظ <code>Backup file</code> قبل أي تحديث.</li></ol>
+<h2>7) ما الجديد</h2>
+<ul><li>قراءة على مرحلتين: قراءة الإطار ثم إعادة قراءة السطرين فقط بعد تعديل الميلان والحجم. لا يُحفظ سجل إلا إذا تطابقت القراءتان وتكررت النتيجة في 3 إطارات.</li>
+<li>تصحيح خطأ مهم: كانت درجة الثقة لسطر البطاقة (الذي فيه نجوم) تأتي صفراً فيُرفض كل شيء. الآن تُستخدم ثقة سطر الحساب فقط، والاعتماد الأساسي على التطابق.</li>
+<li>التكرار (نفس الحساب + آخر 4) لا يُضاف إلى Excel لكنه يبقى محفوظاً تحت <code>Duplicates</code>، ويمكنك اختيار <code>Keep anyway</code>.</li>
+<li>جدول آخر السجلات، ملخص الجلسة، حذف سجل خاطئ، صور تدقيق لآخر 300 سجل ولكل سجل مراجعة، وإعدادات مهلة الانتظار بين المغلفات (<code>Settings</code>).</li>
+<li>السطر الأصفر تحت الإطار يعرض ما قرأه المحرك: أرسل لي لقطة منه إذا لم يقرأ.</li></ul>
+<h2>تقرير الاختبار (ملخص)</h2>
+<p>التقرير الكامل في ملف <code>test-report.md</code>. <b>الخلاصة الصادقة:</b> على صورة مغلف حقيقية واحدة مع 21 تشويهاً صناعياً (ميلان، تعتيم، ضباب، ظل، لمعان، ضجيج، بُعد)، قرأت النسخة الجديدة 6 من 21 بشكل صحيح، ولم تُنتج أي رقم خاطئ. هذا ليس إثباتاً للدقة على مغلفاتك. <b>الميلان الكبير، الظل، اللمعان، والضجيج فشلت كلها (رُفضت القراءة)</b> ولم يُنفَّذ تصحيح المنظور. يلزم اختبارك على الآيفون بمغلفات ورقية حقيقية، وأرسل لي النتائج لأعدّل.</p>
+</body></html>
